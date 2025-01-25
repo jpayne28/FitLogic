@@ -1,0 +1,868 @@
+[
+    {
+        "MuscleGroup": "legs",
+        "ExerciseId": "squats-001",
+        "ExerciseName": "Squats",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "legs",
+        "ExerciseId": "lunges-002",
+        "ExerciseName": "Lunges",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "legs",
+        "ExerciseId": "step-ups-003",
+        "ExerciseName": "Step-Ups",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "legs",
+        "ExerciseId": "wall-sit-004",
+        "ExerciseName": "Wall Sit",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "legs",
+        "ExerciseId": "high-knees-005",
+        "ExerciseName": "High Knees",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "legs",
+        "ExerciseId": "jump-squats-006",
+        "ExerciseName": "Jump Squats",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "legs",
+        "ExerciseId": "calf-raises-007",
+        "ExerciseName": "Calf Raises",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "legs",
+        "ExerciseId": "side-lunges-008",
+        "ExerciseName": "Side Lunges",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "legs",
+        "ExerciseId": "weighted-squats-009",
+        "ExerciseName": "Weighted Squats",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "legs",
+        "ExerciseId": "deadlifts-010",
+        "ExerciseName": "Deadlifts",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "legs",
+        "ExerciseId": "bulgarian-split-squats-011",
+        "ExerciseName": "Bulgarian Split Squats",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "legs",
+        "ExerciseId": "goblet-squats-012",
+        "ExerciseName": "Goblet Squats",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "legs",
+        "ExerciseId": "weighted-lunges-013",
+        "ExerciseName": "Weighted Lunges",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "legs",
+        "ExerciseId": "step-ups-with-weights-014",
+        "ExerciseName": "Step-Ups with Weights",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "legs",
+        "ExerciseId": "romanian-deadlifts-015",
+        "ExerciseName": "Romanian Deadlifts",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "legs",
+        "ExerciseId": "kettlebell-swings-016",
+        "ExerciseName": "Kettlebell Swings",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "legs",
+        "ExerciseId": "front-squats-017",
+        "ExerciseName": "Front Squats",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "legs",
+        "ExerciseId": "hack-squats-018",
+        "ExerciseName": "Hack Squats",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "legs",
+        "ExerciseId": "sled-push-019",
+        "ExerciseName": "Sled Push",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "legs",
+        "ExerciseId": "leg-press-020",
+        "ExerciseName": "Leg Press",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "legs",
+        "ExerciseId": "hamstring-curls-021",
+        "ExerciseName": "Hamstring Curls",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "legs",
+        "ExerciseId": "hip-thrusts-022",
+        "ExerciseName": "Hip Thrusts",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "legs",
+        "ExerciseId": "weighted-side-lunges-023",
+        "ExerciseName": "Weighted Side Lunges",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "legs",
+        "ExerciseId": "weighted-calf-raises-024",
+        "ExerciseName": "Weighted Calf Raises",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "arms",
+        "ExerciseId": "push-ups-001",
+        "ExerciseName": "Push-Ups",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "arms",
+        "ExerciseId": "tricep-dips-002",
+        "ExerciseName": "Tricep Dips",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "arms",
+        "ExerciseId": "arm-circles-003",
+        "ExerciseName": "Arm Circles",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "arms",
+        "ExerciseId": "plank-shoulder-taps-004",
+        "ExerciseName": "Plank Shoulder Taps",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "arms",
+        "ExerciseId": "diamond-push-ups-005",
+        "ExerciseName": "Diamond Push-Ups",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "arms",
+        "ExerciseId": "isometric-holds-006",
+        "ExerciseName": "Isometric Holds",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "arms",
+        "ExerciseId": "bear-crawls-007",
+        "ExerciseName": "Bear Crawls",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "arms",
+        "ExerciseId": "yoga-dolphin-pose-008",
+        "ExerciseName": "Yoga Dolphin Pose",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "arms",
+        "ExerciseId": "bicep-curls-009",
+        "ExerciseName": "Bicep Curls",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "arms",
+        "ExerciseId": "hammer-curls-010",
+        "ExerciseName": "Hammer Curls",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "arms",
+        "ExerciseId": "tricep-kickbacks-011",
+        "ExerciseName": "Tricep Kickbacks",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "arms",
+        "ExerciseId": "concentration-curls-012",
+        "ExerciseName": "Concentration Curls",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "arms",
+        "ExerciseId": "overhead-tricep-extension-013",
+        "ExerciseName": "Overhead Tricep Extension",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "arms",
+        "ExerciseId": "barbell-curls-014",
+        "ExerciseName": "Barbell Curls",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "arms",
+        "ExerciseId": "zottman-curls-015",
+        "ExerciseName": "Zottman Curls",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "arms",
+        "ExerciseId": "close-grip-bench-press-016",
+        "ExerciseName": "Close-Grip Bench Press",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "arms",
+        "ExerciseId": "incline-dumbbell-curls-017",
+        "ExerciseName": "Incline Dumbbell Curls",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "arms",
+        "ExerciseId": "skull-crushers-018",
+        "ExerciseName": "Skull Crushers",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "arms",
+        "ExerciseId": "cable-tricep-pushdowns-019",
+        "ExerciseName": "Cable Tricep Pushdowns",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "arms",
+        "ExerciseId": "lateral-raises-020",
+        "ExerciseName": "Lateral Raises",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "arms",
+        "ExerciseId": "arnold-press-021",
+        "ExerciseName": "Arnold Press",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "arms",
+        "ExerciseId": "front-raises-022",
+        "ExerciseName": "Front Raises",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "arms",
+        "ExerciseId": "chest-flys-023",
+        "ExerciseName": "Chest Flys",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "arms",
+        "ExerciseId": "weighted-plank-taps-024",
+        "ExerciseName": "Weighted Plank Taps",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "abs",
+        "ExerciseId": "crunches-001",
+        "ExerciseName": "Crunches",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "abs",
+        "ExerciseId": "plank-002",
+        "ExerciseName": "Plank",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "abs",
+        "ExerciseId": "bicycle-crunches-003",
+        "ExerciseName": "Bicycle Crunches",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "abs",
+        "ExerciseId": "leg-raises-004",
+        "ExerciseName": "Leg Raises",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "abs",
+        "ExerciseId": "mountain-climbers-005",
+        "ExerciseName": "Mountain Climbers",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "abs",
+        "ExerciseId": "flutter-kicks-006",
+        "ExerciseName": "Flutter Kicks",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "abs",
+        "ExerciseId": "russian-twists-007",
+        "ExerciseName": "Russian Twists",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "abs",
+        "ExerciseId": "hollow-body-hold-008",
+        "ExerciseName": "Hollow Body Hold",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "abs",
+        "ExerciseId": "v-ups-009",
+        "ExerciseName": "V-Ups",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "abs",
+        "ExerciseId": "side-plank-010",
+        "ExerciseName": "Side Plank",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "abs",
+        "ExerciseId": "dead-bug-011",
+        "ExerciseName": "Dead Bug",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "abs",
+        "ExerciseId": "reverse-crunches-012",
+        "ExerciseName": "Reverse Crunches",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "abs",
+        "ExerciseId": "weighted-sit-ups-013",
+        "ExerciseName": "Weighted Sit-Ups",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "abs",
+        "ExerciseId": "cable-crunches-014",
+        "ExerciseName": "Cable Crunches",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "abs",
+        "ExerciseId": "weighted-russian-twists-015",
+        "ExerciseName": "Weighted Russian Twists",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "abs",
+        "ExerciseId": "hanging-leg-raises-016",
+        "ExerciseName": "Hanging Leg Raises",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "abs",
+        "ExerciseId": "weighted-plank-017",
+        "ExerciseName": "Weighted Plank",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "abs",
+        "ExerciseId": "ab-wheel-rollouts-018",
+        "ExerciseName": "Ab Wheel Rollouts",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "abs",
+        "ExerciseId": "medicine-ball-slams-019",
+        "ExerciseName": "Medicine Ball Slams",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "abs",
+        "ExerciseId": "side-bends-020",
+        "ExerciseName": "Side Bends",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "abs",
+        "ExerciseId": "barbell-rollouts-021",
+        "ExerciseName": "Barbell Rollouts",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "abs",
+        "ExerciseId": "kettlebell-windmills-022",
+        "ExerciseName": "Kettlebell Windmills",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "abs",
+        "ExerciseId": "seated-twist-with-weight-023",
+        "ExerciseName": "Seated Twist with Weight",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "abs",
+        "ExerciseId": "overhead-weighted-sit-ups-024",
+        "ExerciseName": "Overhead Weighted Sit-Ups",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+
+    {
+        "MuscleGroup": "back",
+        "ExerciseId": "pull-ups-001",
+        "ExerciseName": "Pull-Ups",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "back",
+        "ExerciseId": "chin-ups-002",
+        "ExerciseName": "Chin-Ups",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "back",
+        "ExerciseId": "superman-hold-003",
+        "ExerciseName": "Superman Hold",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "back",
+        "ExerciseId": "reverse-snow-angels-004",
+        "ExerciseName": "Reverse Snow Angels",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "back",
+        "ExerciseId": "bird-dog-005",
+        "ExerciseName": "Bird Dog",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "back",
+        "ExerciseId": "y-t-w-holds-006",
+        "ExerciseName": "Y-T-W Holds",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "back",
+        "ExerciseId": "plank-rows-007",
+        "ExerciseName": "Plank Rows",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "back",
+        "ExerciseId": "good-mornings-(bodyweight)-008",
+        "ExerciseName": "Good Mornings (Bodyweight)",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "back",
+        "ExerciseId": "face-pulls-009",
+        "ExerciseName": "Face Pulls",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "back",
+        "ExerciseId": "deadlifts-010",
+        "ExerciseName": "Deadlifts",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "back",
+        "ExerciseId": "bent-over-rows-011",
+        "ExerciseName": "Bent-Over Rows",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "back",
+        "ExerciseId": "single-arm-dumbbell-rows-012",
+        "ExerciseName": "Single-Arm Dumbbell Rows",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "back",
+        "ExerciseId": "kettlebell-swings-013",
+        "ExerciseName": "Kettlebell Swings",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "back",
+        "ExerciseId": "t-bar-rows-014",
+        "ExerciseName": "T-Bar Rows",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "back",
+        "ExerciseId": "lat-pulldowns-015",
+        "ExerciseName": "Lat Pulldowns",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "back",
+        "ExerciseId": "seated-cable-rows-016",
+        "ExerciseName": "Seated Cable Rows",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "back",
+        "ExerciseId": "shrugs-017",
+        "ExerciseName": "Shrugs",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "back",
+        "ExerciseId": "farmer's-carry-018",
+        "ExerciseName": "Farmer's Carry",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "back",
+        "ExerciseId": "romanian-deadlifts-019",
+        "ExerciseName": "Romanian Deadlifts",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "back",
+        "ExerciseId": "inverted-rows-020",
+        "ExerciseName": "Inverted Rows",
+        "Weighted": "unweighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "back",
+        "ExerciseId": "reverse-flys-021",
+        "ExerciseName": "Reverse Flys",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "back",
+        "ExerciseId": "barbell-shrugs-022",
+        "ExerciseName": "Barbell Shrugs",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "back",
+        "ExerciseId": "cable-rear-delt-flys-023",
+        "ExerciseName": "Cable Rear Delt Flys",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    },
+    {
+        "MuscleGroup": "back",
+        "ExerciseId": "weighted-pull-ups-024",
+        "ExerciseName": "Weighted Pull-Ups",
+        "Weighted": "weighted",
+        "Duration": 5,
+        "Sets": 4,
+        "Reps": "10-12"
+    }
+]
+

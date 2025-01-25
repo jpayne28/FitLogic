@@ -1,0 +1,76 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: 'workout_randomizer backend SAM Template for FitLogic backend
+
+  '
+Resources:
+  WorkoutsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: WorkoutsTable
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+      - AttributeName: MuscleGroup
+        AttributeType: S
+      - AttributeName: ExerciseId
+        AttributeType: S
+      - AttributeName: Weighted
+        AttributeType: S
+      KeySchema:
+      - AttributeName: MuscleGroup
+        KeyType: HASH
+      - AttributeName: ExerciseId
+        KeyType: RANGE
+      GlobalSecondaryIndexes:
+      - IndexName: WeightedMuscleGroupIndex
+        KeySchema:
+        - AttributeName: Weighted
+          KeyType: HASH
+        - AttributeName: MuscleGroup
+          KeyType: RANGE
+        Projection:
+          ProjectionType: ALL
+  WorkoutAPI:
+    Type: AWS::Serverless::Api
+    Properties:
+      StageName: Prod
+      Cors:
+        AllowMethods: '''GET,HEAD,OPTIONS'''
+        AllowHeaders: '''Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'''
+        AllowOrigin: '''*'''
+  GetWorkoutsLambda:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: GetWorkoutsLambda
+      Handler: get_workout.lambda_handler
+      Runtime: python3.9
+      Architectures:
+      - x86_64
+      Environment:
+        Variables:
+          WORKOUT_TABLE:
+            Ref: WorkoutsTable
+      Events:
+        GetWorkoutsApi:
+          Type: Api
+          Properties:
+            RestApiId:
+              Ref: WorkoutAPI
+            Path: /workouts
+            Method: get
+      Policies:
+      - DynamoDBReadPolicy:
+          TableName:
+            Ref: WorkoutsTable
+          IndexName: WeightedMuscleGroupIndex
+    Metadata:
+      SamResourceId: GetWorkoutsLambda
+Outputs:
+  WorkoutAPI:
+    Description: API Gateway endpoint URL for Prod stage of FitLogic microservice
+    Value:
+      Fn::Sub: https://${WorkoutAPI}.execute-api.${AWS::Region}.amazonaws.com/Prod
+  GetWorkoutsAPIEndpoint:
+    Description: API Gateway endpoint URL for Prod stage of the FitLogic microservice
+    Value:
+      Fn::Sub: https://${WorkoutAPI}.execute-api.${AWS::Region}.amazonaws.com/Prod/workouts/
