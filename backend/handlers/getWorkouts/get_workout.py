@@ -1,25 +1,42 @@
-import boto3
 import json
-from decimal import Decimal
-import random
+import boto3
 import os
+import random
+import logging
+from decimal import Decimal
+
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+
+# Add class to handle Decimal serialization
+class DecimalEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, Decimal):
+            return str(obj)
+        return super(DecimalEncoder, self).default(obj)
 
 def lambda_handler(event, context):
-    dynamodb = boto3.resource('dynamodb')
-    table = dynamodb.Table(os.environ['WORKOUT_TABLE'])
-    region_name = os.environ['REGION_NAME']
+    params = event.get('queryStringParameters')
     
-    # Get query parameters from the event
-    params = event.get('queryStringParameters', {})
-    muscle_group = params.get('muscleGroup', '').lower()
-    weighted = params.get('weighted', '').lower()  # 'weighted' or 'unweighted'
-    duration = int(params.get('duration', 30))  # Total workout duration in minutes
-    
-    # Calculate number of exercises needed (5 minutes per exercise)
-    num_exercises_needed = duration // 5
-    
+    if not params:
+        return {
+            'statusCode': 400,
+            'headers': {
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin': '*'
+            },
+            'body': json.dumps({'message': 'Missing query parameters'})
+        }
+
     try:
-        # Query using the GSI
+        muscle_group = params.get('muscleGroup', '').lower()
+        weighted = params.get('weighted', '').lower()
+        duration = int(params.get('duration', 30))
+
+        dynamodb = boto3.resource('dynamodb')
+        table = dynamodb.Table(os.environ['WORKOUT_TABLE'])
+
+        # Query DynamoDB
         response = table.query(
             IndexName='WeightedMuscleGroupIndex',
             KeyConditionExpression='Weighted = :weighted AND MuscleGroup = :mg',
@@ -28,7 +45,7 @@ def lambda_handler(event, context):
                 ':mg': muscle_group
             }
         )
-        
+
         all_exercises = response.get('Items', [])
         
         if not all_exercises:
@@ -42,47 +59,43 @@ def lambda_handler(event, context):
                     'message': f'No {weighted} exercises found for {muscle_group}'
                 })
             }
-        
-        # Randomly select the required number of exercises
+
+        # Calculate exercises needed for requested duration
+        num_exercises_needed = duration // 5 # DecimalEncoder
+        print(f"Number of exercises needed for {duration} minutes: {num_exercises_needed}")
+
         selected_exercises = random.sample(
             all_exercises,
             min(num_exercises_needed, len(all_exercises))
         )
-        
-        # Calculate actual workout duration
-        actual_duration = len(selected_exercises) * 5
-        
+
+        print(f"Selected {len(selected_exercises)} exercises")
+
         workout_plan = {
             'requested_duration': duration,
-            'actual_duration': actual_duration,
+            'actual_duration': len(selected_exercises) * 5,
             'exercises_count': len(selected_exercises),
             'muscle_group': muscle_group,
             'weighted': weighted,
             'exercises': selected_exercises
         }
-        
+
         return {
             'statusCode': 200,
             'headers': {
                 'Content-Type': 'application/json',
                 'Access-Control-Allow-Origin': '*'
             },
-            'body': json.dumps(workout_plan, default=str)
-        }
-        
-    except ValueError as ve:
-        return {
-            'statusCode': 400,
-            'body': json.dumps({'error': 'No workouts found for select criteria'})
-        }
-    except Exception as e:
-        return {
-            'statusCode': 500,
-            'body': json.dumps({'error': str(e)})
+            'body': json.dumps(workout_plan, cls=DecimalEncoder)
         }
 
-# def lambda_handler(event, context):
-#     return {
-#         'statusCode': 200,
-#         'body': 'Hello from Lambda!'
-#     }
+    except Exception as e:
+        print(f"Error: {str(e)}")
+        return {
+            'statusCode': 500,
+            'headers': {
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin': '*'
+            },
+            'body': json.dumps({'message': 'Internal server error'})
+        }

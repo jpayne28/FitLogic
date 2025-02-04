@@ -1,0 +1,148 @@
+.banner {
+    background-color: beige;
+    color: rgb(35, 25, 25);
+    font-size: 250%;
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.topnav {
+    font-size: 20;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    
+}
+.topnav a {
+    color: black;
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: gray
+}
+select option[disabled] {
+    color: #999;
+}
+
+/* Style the select when nothing is selected */
+select:invalid {
+    color: #999;
+}
+
+/* Style for when an actual option is selected */
+select:valid {
+    color: #000;
+}
+/* Create a main container for all content */
+.container {
+    width: 80%;           
+    max-width: 1200px;    
+    margin: 0 auto;       
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Center form elements */
+form {
+    width: 100%;
+    max-width: 600px;     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;           
+}
+
+/* Style select elements */
+select {
+    width: 80%;          
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Style buttons container */
+.button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Style individual buttons */
+button {
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+/* Center text elements */
+h1, h2, p {
+    text-align: center;
+}
+
+/* Make the banner centered */
+.banner {
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Make navigation centered */
+.topnav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+    
+    select {
+        width: 90%;
+    }
+}
+
+#workouts-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#loading {
+    text-align: center;
+    color: #666;
+    padding: 20px;
+}
+
+.workout-item {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+}
+
+.workout-item h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    padding: 20px;
+}
+
+

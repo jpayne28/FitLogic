@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="main.css">
+        <title>FitLogic</title> 
+    </head>
+    <body>
+        <div class="topnav">
+        <nav>
+            <!-- Navigation bar elements-->
+            <a href="home.html">Home</a>
+            <a href="fit_diary.html">FitDiary</a>
+            <a href="#about-us-link">About Us</a>
+        </nav>
+        
+        </div>
+        <hr>
+        <div class="container">
+        <div class="banner">
+            <table>
+                <tr>
+                <th>get fit with</th> 
+                <td><h1>FitLogic</h1></td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <p>Complete form below to generate a new workout routine:</p>
+        <br>
+        <div>
+            <form id="workoutForm" method="get">
+                <!--Define input data to generate workout routine-->
+                <table>
+                    <tr>
+                        <td>Muscle Group:</td>
+                        <td><select id="muscleGroup" required>
+                            <option value="" disabled selected></option>
+                            <option value="legs">legs</option>
+                            <option value="arms">arms</option>
+                            <option value="abs">abs</option>
+                            <option value="back">back</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>Weighted/Unweighted: </td>
+                        <td><select id="weighted" required>
+                            <option value="" disabled selected></option>
+                            <option value="weighted">weighted</option>
+                            <option value="unweighted">unweighted</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>Duration (minutes): </td>
+                        <td><select id="duration" required>
+                            <option value="" disabled selected></option>
+                            <option value="30">30</option>
+                            <option value="45">45</option>
+                            <option value="60">60</option>
+                        </select></td>
+                    </tr>
+                </table>
+                <div class="button-group">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+        </div>
+        <br>
+        <!-- Container for workout data -->
+        <div id="workouts-container">
+            <h2>Workouts</h2>
+            <!-- Loading indicator -->
+            <div id="loading" style="display: none;">Loading workouts...</div>
+            <!-- Workout list -->
+            <div id="workout-list"></div>
+        </div>
+
+        <!-- Link to JavaScript file-->
+        <script src="connect.js"></script>
+    </body>
+</html>
+

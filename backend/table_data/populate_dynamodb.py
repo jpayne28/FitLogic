@@ -34,11 +34,7 @@ def populate_dynamodb(table_name, region_name, file_name):
         print("Population complete!")
 
 
-if __name__ == "__main__":
-    table_name = 'WorkoutsTable'
-    region_name = 'us-east-1'
-    file_name = './backend/table_data/workout_data.json'
-    populate_dynamodb(table_name, region_name, file_name)
+
 
 # When ready run script from cd FitLogic_Workout_Randomizer/backend/table_data
 # run command python populate_dynamodb.py

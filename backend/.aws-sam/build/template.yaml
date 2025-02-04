@@ -35,9 +35,9 @@ Resources:
     Properties:
       StageName: Prod
       Cors:
-        AllowMethods: '''GET,HEAD,OPTIONS'''
+        AllowMethods: '''GET, HEAD, OPTIONS'''
         AllowHeaders: '''Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'''
-        AllowOrigin: '''*'''
+        AllowOrigin: '''http://fitlogicstatic.s3-website-us-east-1.amazonaws.com'''
   GetWorkoutsLambda:
     Type: AWS::Serverless::Function
     Properties:

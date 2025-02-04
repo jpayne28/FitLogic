@@ -1,8 +1,8 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/aws/serverless-application-model/main/samtranslator/schema/schema.json
+#yaml-language-server: $schema=https://raw.githubusercontent.com/aws/serverless-application-model/main/samtranslator/schema/schema.json
 
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
-Description: >
+Description: 
   workout_randomizer backend
   SAM Template for FitLogic backend
 
@@ -45,9 +45,10 @@ Resources:
     Properties:
       StageName: Prod
       Cors:
-        AllowMethods: "'GET,HEAD,OPTIONS'"
+        AllowMethods: "'GET, HEAD, OPTIONS'"
         AllowHeaders: "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'"
-        AllowOrigin: "'*'" # need to change this once UI is up, only accept request from UI
+        #Replace with environment variable or parameter
+        AllowOrigin: "'*" # TODO: Update with your specific domain in production
 
   GetWorkoutsLambda:
     Type: AWS::Serverless::Function
